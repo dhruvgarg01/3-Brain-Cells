@@ -1,0 +1,15 @@
+# Ignore Data Files (Too big for Git)
+*.csv
+*.xlsx
+*.pkl
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints (Autosaves)
+.ipynb_checkpoints/
