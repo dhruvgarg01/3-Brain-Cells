@@ -77,3 +77,8 @@ Our analysis identified the most significant drivers of churn using feature impo
 * `requirements.txt`: List of Python libraries required.
 * `images/`: Folder containing visualization assets.
 
+## 8. Future Work
+* Data Balancing: Implement SMOTE to handle class imbalance more effectively.
+* Advanced Modeling: Experiment with XGBoost and Hyperparameter Tuning (GridSearchCV) to improve accuracy.
+* Customer Segmentation: Use K-Means clustering to identify different customer personas.
+
