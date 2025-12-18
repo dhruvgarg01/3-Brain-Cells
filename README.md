@@ -27,7 +27,7 @@ We defined churn as a binary classification problem. Data preparation involved:
 ### Phase 3: Exploratory Data Analysis (EDA)
 We visualized the target balance to understand the baseline churn rate. As shown below, the dataset is imbalanced, with more customers staying than leaving.
 
-![Target Distribution](1_Distribution.svg)
+![Target Distribution](images/1_Distribution.svg)
 
 ### Phase 4: Modeling
 We trained and tuned three distinct machine learning algorithms:
@@ -40,11 +40,11 @@ We compared models based on **Accuracy**, **Precision**, and **Recall**.
 
 * **The Winner:** **Logistic Regression** achieved the highest accuracy (**81.97%**), outperforming the more complex Random Forest model. This indicates the relationships in this specific dataset are largely linear.
 
-![Accuracy Comparison](3_Accuracy.svg)
+![Accuracy Comparison](images/3_Accuracy.svg)
 
 The Confusion Matrix below shows our final model's performance on the test set. It successfully identified high-risk churners (True Positives).
 
-![Confusion Matrix](4_ConfusionMatrix.svg)
+![Confusion Matrix](images/4_ConfusionMatrix.svg)
 
 ### Phase 6: Deployment
 We developed a **"Churn Risk Calculator"** tool (included in the notebook). This script allows business managers to input new customer details (e.g., *Tenure: 2 months, Contract: Month-to-month*) and receive an instant Churn Probability score with actionable recommendations.
@@ -52,7 +52,7 @@ We developed a **"Churn Risk Calculator"** tool (included in the notebook). This
 ## 5. Key Findings & Insights
 Our analysis identified the most significant drivers of churn using feature importance scores:
 
-![Feature Importance](2_Drivers.svg)
+![Feature Importance](images/2_Drivers.svg)
 
 * 🔴 **High Risk Factors:**
     * **Fiber Optic Internet:** The strongest predictor of churn. Customers with this service are highly dissatisfied.
@@ -64,7 +64,7 @@ Our analysis identified the most significant drivers of churn using feature impo
 ## 6. How to Run This Project
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Your-Repo-Name.git](https://github.com/YourUsername/Your-Repo-Name.git)
+    git clone [https://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
     ```
 2.  **Install dependencies:**
     ```bash
@@ -76,7 +76,7 @@ Our analysis identified the most significant drivers of churn using feature impo
 ## 7. Project Structure
 * `Final_Project.ipynb`: The main source code containing all CRISP-DM phases.
 * `WA_Fn-UseC_-Telco-Customer-Churn.csv`: The dataset used for training.
-* `1_Distribution.svg`, `2_Drivers.svg`, `3_Accuracy.svg`, `4_ConfusionMatrix.svg`: Generated visual assets.
+* `images/`: Folder containing visualization assets (`1_Distribution.svg`, etc.).
 
 ## 8. Future Work
 * **Data Balancing:** Implement SMOTE to handle class imbalance more effectively.
