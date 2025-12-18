@@ -1,15 +1,29 @@
-# Ignore Data Files (Too big for Git)
+# --- Data & Models (Keep off Git) ---
 *.csv
 *.xlsx
 *.pkl
+*.h5
+*.joblib
 
-# Ignore Mac/Windows system files
+# --- Python & System Files ---
+__pycache__/
+*.pyc
 .DS_Store
 Thumbs.db
 
-# Ignore Python compiled files
-__pycache__/
-*.pyc
-
-# Ignore Jupyter Notebook checkpoints (Autosaves)
+# --- Jupyter Notebooks ---
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Virtual Environments (IMPORTANT) ---
+env/
+venv/
+.env/
+.venv/
+
+# --- Environment Variables (Secrets) ---
+.env
+
+# --- IDE Settings ---
+.vscode/
+.idea/
