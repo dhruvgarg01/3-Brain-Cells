@@ -82,3 +82,10 @@ Our analysis identified the most significant drivers of churn using feature impo
 * Advanced Modeling: Experiment with XGBoost and Hyperparameter Tuning (GridSearchCV) to improve accuracy.
 * Customer Segmentation: Use K-Means clustering to identify different customer personas.
 
+## 👥 Team Contributors
+* Nitesh Kumar: Business Understanding, Presentation Lead.
+* Vansh: Model Training, Evaluation Strategy.
+* Dhruv Garg: Feature Engineering, Repository Maintainer.
+
+*(Note: Initial development was conducted via Pair Programming on a shared workstation, followed by individual contributions for documentation and deployment.)*
+
