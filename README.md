@@ -1,5 +1,3 @@
-# Telco-churn-capstone
-
 # 📉 Telco Customer Churn Prediction (Capstone Project)
 
 ## 1. Project Objective
